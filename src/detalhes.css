@@ -1,0 +1,50 @@
+/* Reset de estilos padrão do corpo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o contêiner do personagem */
+#personagem {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Estilos para o título principal */
+h1 {
+    font-size: 23px;
+}
+
+/* Estilos para o subtitulo */
+h3 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* Estilos para a imagem do personagem */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Estilos para o contêiner dos detalhes do personagem */
+.detalhes-personagem {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Estilos para parágrafos */
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}

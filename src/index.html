@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/c248b892d6.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Rick And Morty</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="/src/img/Rick-And-Morty-Logo.png" alt="Logotipo Rick and Morty">
+        </nav>
+    </header>
+    
+    <form class="formulario">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="status">Status</label>
+            <select id="status">
+                <option selected disabled value="">Selecione</option>
+                <option>Alive</option>
+                <option>Dead</option>
+                <option>Unknown</option>
+            </select>
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option selected disabled value="">Selecione</option>
+                <option>Female</option>
+                <option>Male</option>
+                <option>Genderless</option>
+                <option>Unknown</option>
+            </select>
+        </div>
+        <div>
+            <button class="botao" id="buscarButton">Buscar</button>
+        </div>
+    </form>
+    
+    
+    <main class="grid-container">
+        <div class="card">
+            <img src="/src/img/test.jpeg" alt="">
+            <p><strong>Name:</strong> Rick Sanchez</p>
+            <p><strong>Status:</strong> Alive</p>
+            <p><strong>Gender:</strong> Male</p>
+            <button class="botao"><a href="personagem.html?id=1">Detalhes</a></button>
+        </div>
+    </main>
+
+    <div class="pagination">
+        <div id="pageNumbers"></div>     
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
